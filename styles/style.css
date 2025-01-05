@@ -16,8 +16,8 @@
 
 .header__container {
   width: 100%;
-  height: 580px;
-  background-image: url(../images/1C8A069155.jpg);
+  height: 952px;
+  background-image: url(../images/1C8A06915555.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
@@ -27,7 +27,8 @@
   max-width: 1530px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
+  padding-top: 40px;
   
 }
 
@@ -87,7 +88,7 @@ a {
 }
 
 .header__author {
-  padding: 170px 0px 200px 160px;
+  padding: 400px 0px 200px 100px;
 }
 
 .header__title {
@@ -179,7 +180,6 @@ a {
 .about__header {
 font-family: Cormorant;
 font-size: 88.82px;
-font-style: italic;
 font-weight: 300;
 line-height: 103.12px;
 letter-spacing: -0.005em;
@@ -200,7 +200,6 @@ padding-bottom: 20px;
 .lessons__title {
   font-family: Cormorant;
   font-size: 75.86px;
-  font-style: italic;
   font-weight: 400;
   line-height: 91.87px;
   letter-spacing: -0.005em;
@@ -261,7 +260,6 @@ padding-top: 30px;
 .lessons__title {
   font-family: Cormorant;
   font-size: 75.86px;
-  font-style: italic;
   font-weight: 400;
   line-height: 91.87px;
   letter-spacing: -0.005em;
@@ -272,7 +270,6 @@ padding-top: 30px;
 .ab__title {
   font-family: Cormorant;
   font-size: 75.86px;
-  font-style: italic;
   font-weight: 400;
   line-height: 91.87px;
   letter-spacing: -0.005em;
