@@ -1,18 +1,17 @@
-
-  body {
-    max-width: 1530px;
-    margin: auto;
-    padding: 0;
-    background-color: rgba(248, 245, 242, 1);
-    min-width: 320px;
-    -ms-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-family: 'Source Sans 3', Arial, sans-serif;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
+body {
+  max-width: 1530px;
+  margin: auto;
+  padding: 0;
+  background-color: rgba(248, 245, 242, 1);
+  min-width: 320px;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 .header__container {
   width: 100%;
@@ -29,7 +28,6 @@
   flex-direction: row;
   justify-content: flex-end;
   padding-top: 40px;
-  
 }
 
 .header__logo {
@@ -57,7 +55,7 @@
 
 a {
   color: rgba(0, 0, 0, 0.58) !important;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .contact {
@@ -69,7 +67,7 @@ a {
   background-color: rgb(241, 68, 148);
   border-radius: 18px;
   opacity: 0.7;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .contact_border {
@@ -84,7 +82,6 @@ a {
   padding: 7px 25px 7px 25px;
   opacity: 0.7;
   cursor: pointer;
- 
 }
 
 .header__author {
@@ -103,12 +100,12 @@ a {
 }
 
 .header__subtitle {
- font-family: Cormorant;
- font-weight: 300;
- margin-top: 20px;
- color: black;
- letter-spacing: -0.005em;
- margin: 0;
+  font-family: Cormorant;
+  font-weight: 300;
+  margin-top: 20px;
+  color: black;
+  letter-spacing: -0.005em;
+  margin: 0;
 }
 
 .motivation__container {
@@ -138,7 +135,6 @@ a {
   text-align: center;
   color: rgba(197, 152, 136, 1);
   padding: 0px 80px 0px 80px;
-  
 }
 
 .motivation__author {
@@ -150,7 +146,6 @@ a {
   text-align: center;
   color: rgba(143, 110, 81, 1);
   text-transform: uppercase;
- 
 }
 
 .about__container {
@@ -161,8 +156,6 @@ a {
   flex-direction: row;
   gap: 161px;
 }
-
-
 
 .about__img {
   width: 575px;
@@ -178,23 +171,22 @@ a {
 }
 
 .about__header {
-font-family: Cormorant;
-font-size: 88.82px;
-font-weight: 300;
-line-height: 103.12px;
-letter-spacing: -0.005em;
-color: rgb(241, 68, 148);
+  font-family: Cormorant;
+  font-size: 88.82px;
+  font-weight: 300;
+  line-height: 103.12px;
+  letter-spacing: -0.005em;
+  color: rgb(241, 68, 148);
 }
 
 .about__text {
-font-family: Source Sans 3;
-font-size: 19.38px;
-font-weight: 400;
-line-height: 28.81px;
-letter-spacing: 0.1em;
-color: rgba(0, 0, 0, 0.58);
-padding-bottom: 20px;
-
+  font-family: Source Sans 3;
+  font-size: 19.38px;
+  font-weight: 400;
+  line-height: 28.81px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.58);
+  padding-bottom: 20px;
 }
 
 .lessons__title {
@@ -206,7 +198,6 @@ padding-bottom: 20px;
   color: rgb(241, 68, 148);
   text-align: center;
 }
-
 
 .lessons__cards {
   display: grid;
@@ -238,23 +229,23 @@ padding-bottom: 20px;
 
 .lessons__header {
   font-family: Cormorant;
-font-size: 49.17px;
-font-weight: 500;
-line-height: 59.54px;
-letter-spacing: -0.005em;
-margin: 0;
-color: rgba(143, 110, 81, 1);
+  font-size: 49.17px;
+  font-weight: 500;
+  line-height: 59.54px;
+  letter-spacing: -0.005em;
+  margin: 0;
+  color: rgba(143, 110, 81, 1);
 }
 
 .lessons__text {
   font-family: "Source Sans 3";
-font-size: 19.38px;
-font-weight: 400;
-line-height: 28.81px;
-letter-spacing: 0.11em;
-color: rgba(143, 110, 81, 1);
-margin: 0;
-padding-top: 30px;
+  font-size: 19.38px;
+  font-weight: 400;
+  line-height: 28.81px;
+  letter-spacing: 0.11em;
+  color: rgba(143, 110, 81, 1);
+  margin: 0;
+  padding-top: 30px;
 }
 
 .lessons__title {
@@ -313,8 +304,8 @@ padding-top: 30px;
   font-weight: 400;
   line-height: 29.06px;
   letter-spacing: -0.005em;
-margin: 0;
-padding-bottom: 40px;
+  margin: 0;
+  padding-bottom: 40px;
 }
 
 .lets__container {
@@ -338,7 +329,7 @@ padding-bottom: 40px;
   line-height: 77.5px;
   letter-spacing: -0.005em;
   text-align: center;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .lets__text {
@@ -348,22 +339,21 @@ padding-bottom: 40px;
   line-height: 32.68px;
   letter-spacing: 0.11em;
   text-align: center;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer {
   max-width: 1530px;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   padding-top: 50px;
   align-items: center;
-background-color: rgba(226, 218, 210, 1);
+  background-color: rgba(226, 218, 210, 1);
 }
 .footer__contacts {
   max-width: 600px;
   gap: 40px;
-
 }
 
 .footer__social {
