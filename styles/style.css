@@ -38,7 +38,7 @@
   padding: 14px 0px 5px 54px;
 }
 
-.header__contacts {
+.contacts {
   max-width: 810px;
   display: flex;
   flex-direction: row;
@@ -319,7 +319,7 @@ padding-bottom: 40px;
 
 .lets__container {
   width: 100%;
-  min-height: 500px;
+  min-height: 464px;
   background-image: url(../images/IMG_9130\ 1.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -349,4 +349,34 @@ padding-bottom: 40px;
   letter-spacing: 0.11em;
   text-align: center;
   color:rgba(255, 255, 255, 1);
+}
+
+.footer {
+  max-width: 1530px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding-top: 50px;
+  align-items: center;
+background-color: rgba(226, 218, 210, 1);
+}
+.footer__contacts {
+  max-width: 600px;
+  gap: 40px;
+
+}
+
+.footer__social {
+  display: block;
+}
+
+.footer__social_list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
