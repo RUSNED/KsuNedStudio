@@ -1,0 +1,35 @@
+.footer {
+  max-width: 1530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+  background-color: rgba(226, 218, 210, 1);
+}
+.footer__contacts {
+  max-width: 600px;
+  gap: 40px;
+}
+
+.footer__social {
+  display: block;
+}
+
+.footer__social_list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 970px) {
+  .footer__contacts {
+    padding: 0;
+    gap: 20px;
+  }
+}

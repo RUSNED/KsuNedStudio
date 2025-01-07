@@ -1,0 +1,67 @@
+.ab__title {
+  font-family: Cormorant;
+  font-size: 75.86px;
+  font-weight: 400;
+  line-height: 91.87px;
+  letter-spacing: -0.005em;
+  color: rgb(241, 68, 148);
+  text-align: center;
+}
+
+.ab__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 40px 0px 40px;
+  gap: 40px;
+  margin: 0;
+  list-style: none;
+  justify-items: center;
+}
+
+.ab__card {
+  max-width: 413px;
+}
+
+.ab__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.ab__header {
+  font-family: Cormorant;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43.6px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  border-bottom: 1px solid rgb(241, 68, 148);
+  padding-bottom: 10px;
+}
+
+.ab__text {
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  letter-spacing: -0.005em;
+  margin: 0;
+  padding-bottom: 40px;
+}
+.ab__img {
+  width: 100%;
+}
+
+@media (max-width: 1174px) {
+  .ab__cards {
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+  }
+  .ab__card {
+    max-width: 900px;
+  }
+  .ab__title {
+    font-size: 50px;
+  }
+}
