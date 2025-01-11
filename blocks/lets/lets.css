@@ -1,7 +1,6 @@
 .lets__container {
   width: 100%;
-
-  background-image: url(../images/motivation.png);
+  background-image: url(../../images/motivation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
