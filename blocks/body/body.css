@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Source Sans 3", Arial, sans-serif;
+  font-family: Open Sans, Arial, sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
