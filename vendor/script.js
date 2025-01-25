@@ -1,25 +1,11 @@
-const menu = document.querySelector(".header__info");
-const menuItems = document.querySelectorAll(".menuItem");
-const hamburger= document.querySelector(".hamburger");
-const closeIcon= document.querySelector(".closeIcon");
-const menuIcon = document.querySelector(".menuIcon");
+//Меню бургер
 
-function toggleMenu() {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    closeIcon.style.display = "none";
-    menuIcon.style.display = "block";
-  } else {
-    menu.classList.add("showMenu");
-    closeIcon.style.display = "block";
-    menuIcon.style.display = "none";
-  }
-}
-
-hamburger.addEventListener("click", toggleMenu);
-
-menuItems.forEach( 
-    function(menuItem) { 
-      menuItem.addEventListener("click", toggleMenu);
-    }
-  )
+ const iconMenu = document.querySelector ('.menu__icon');
+ if (iconMenu) {
+  const menuBody = document.querySelector('.header__info');
+  iconMenu.addEventListener("click",function(e) {
+    document.body.classList.toggle('_lock');
+iconMenu.classList.toggle('_active');
+menuBody.classList.toggle('_active');
+  });
+ }
