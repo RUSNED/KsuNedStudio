@@ -118,8 +118,7 @@ a {
     font-size: 30px;
   }
   .header__info {
-    max-width: 800px;
-    justify-content: start;
+    
     padding-top: 20px;
     padding-left: 50px;
   }
@@ -129,7 +128,7 @@ a {
 }
 @media (max-width: 970px) {
   .contacts {
-    gap: 10px;
+    gap: 30px;
     font-size: 12px;
   }
   .header__info {
@@ -173,8 +172,8 @@ a {
   z-index: 5;
   display: block;
   position: relative;
-  width: 30px;
-  height: 18px;
+  width: 20px;
+  height: 13px;
   cursor: pointer;
   top:20px;
   left: 15px;
@@ -225,6 +224,7 @@ background-color: white;
 
 .header__info {
   flex-direction: column;
+  justify-content: flex-start;
   position: fixed;
   top:0;
   left: 0;
@@ -245,7 +245,7 @@ background-color: white;
     color: white !important;
   }
 .contact__color_black {
-  color: black !important;
+  color: rgba(0, 0, 0, 0.58) !important;
 }
   .contacts {
     flex-direction: column;
@@ -288,9 +288,7 @@ background-color: white;
   .header__subtitle {
     font-size: 16px;
   }
-  .contact_border {
-    padding: 3px 15px 3px 15px;
-  }
+
 }
 
 @media (max-width: 500px) {
@@ -309,8 +307,6 @@ background-color: white;
   .header__subtitle {
     font-size: 13px;
   }
-  .contact_border {
-    padding: 2px 10px 2px 10px;
-  }
+
 }
 
