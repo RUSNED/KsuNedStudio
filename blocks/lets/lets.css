@@ -9,7 +9,7 @@
 }
 
 .lets__content {
-  padding: 60px 250px 20px 250px;
+  padding: 40px 250px 60px 250px;
 }
 
 .lets__header {
@@ -34,7 +34,7 @@
 
 @media (max-width: 1174px) {
   .lets__header {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .lets__text {
@@ -51,7 +51,7 @@
 
 @media (max-width: 1064px) {
   .lets__header {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .lets__text {
@@ -68,7 +68,7 @@
 
 @media (max-width: 884px) {
   .lets__header {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .lets__text {
@@ -85,7 +85,7 @@
 
 @media (max-width: 800px) {
   .lets__header {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0px;
     line-height: 40px;
   }
@@ -102,7 +102,7 @@
 }
 @media (max-width: 625px) {
   .lets__header {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top: 30px;
     line-height: 30px;

@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
+  background-color: rgba(226, 218, 210, 1);
+  border-radius: 10px;
 }
 
 .about__image {
@@ -22,12 +24,13 @@
 }
 
 .about__header {
-  font-family: "Open Sans";
-  font-size: 70px;
+  font-family: Cormorant;
+  font-size: 55px;
   font-weight: 300;
   line-height: 103.12px;
   letter-spacing: -0.005em;
   color: rgba(143, 110, 81, 1);
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -38,7 +41,7 @@
   line-height: 28.81px;
   letter-spacing: 0.1em;
   color: rgba(0, 0, 0, 0.58);
-  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 @media (max-width: 1274px) {
@@ -58,10 +61,12 @@
   }
   .about__text {
     font-size: 19px;
+    padding-top: 10px;
   }
   .about__header {
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
+    line-height: 30px;
   }
   .about__image {
     max-width: 800px;
