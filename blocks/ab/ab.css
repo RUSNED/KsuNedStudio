@@ -11,9 +11,9 @@
 
 .ab__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 0px 40px 0px 40px;
-  gap: 40px;
+  gap: 30px;
   margin: 0;
   list-style: none;
   justify-items: center;
@@ -40,6 +40,7 @@
   border-bottom: 1px solid rgba(143, 110, 81, 1);
   padding-bottom: 10px;
   color: rgba(143, 110, 81, 1);
+  margin-bottom: 0;
 }
 
 .ab__text {
@@ -49,16 +50,53 @@
   line-height: 29.06px;
   letter-spacing: -0.005em;
   margin: 0;
-  padding-bottom: 40px;
   color:rgba(0, 0, 0, 0.58);
 }
-.ab__img {
-  width: 100%;
+
+.ab__padding {
+  padding-bottom: 200px;
 }
 
-@media (max-width: 1174px) {
+.ab__text_black_p {
+  padding-top: 10px;
+}
+
+
+.ab__header_margin {
+  margin: 0;
+  padding-bottom: 5px;
+  
+}
+
+.ab__text_black {
+  font-family: Cormorant;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 29.06px;
+  color:rgba(0, 0, 0, 0.58);
+  margin: 0;
+}
+
+.ab__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.ab__content_cont {
+  height: 790px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ab__contact {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 1380px) {
   .ab__cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
   }
   .ab__card {
@@ -69,5 +107,45 @@
   }
   .ab__title {
     font-size: 35px;
+  }
+  
+  .ab__text_p {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 950px) {
+  .ab__cards {
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+  }
+  .ab__card {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ab__title {
+    font-size: 35px;
+  }
+  .ab__content_cont {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .ab__padding {
+    padding-bottom: 0px;
+  }
+  .ab__text_p {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+ 
+  .ab__content_cont {
+    height: 750px;
+    
   }
 }

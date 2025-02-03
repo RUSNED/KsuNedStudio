@@ -48,6 +48,7 @@ a {
 .contact {
   padding: 6px;
   text-decoration: none;
+  
 }
 
 .contact:hover {
@@ -247,6 +248,7 @@ background-color: white;
   }
 .contact__color_black {
   color: rgba(0, 0, 0, 0.58) !important;
+  justify-content: center;
 }
   .contacts {
     flex-direction: column;
