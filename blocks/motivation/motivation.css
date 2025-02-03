@@ -67,6 +67,9 @@
   .motivation__author {
     font-size: 20px;
   }
+  .motivation__text_info {
+    font-size: 28px;
+  }
 }
 @media (max-width: 800px) {
   .motivation__subtitle {
@@ -79,6 +82,9 @@
   }
   .motivation__author {
     font-size: 18px;
+  }
+  .motivation__text_info {
+    font-size: 26px;
   }
 }
 
@@ -96,5 +102,8 @@
   }
   .motivation__author {
     font-size: 14px;
+  }
+  .motivation__text_info {
+    font-size: 20px;
   }
 }
