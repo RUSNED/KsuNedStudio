@@ -1,9 +1,9 @@
 .about__container {
   max-width: 1530px;
-  padding: 150px 70px 80px 80px;
+  padding: 150px 70px 80px 120px;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 100px;
   background-color: rgba(226, 218, 210, 1);
   border-radius: 10px;
 }
