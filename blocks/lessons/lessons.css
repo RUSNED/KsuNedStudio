@@ -81,9 +81,14 @@ justify-content: center;
 justify-content: center;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1407px) {
   .lessons__image_paddingleft {
     padding-left: 100px;
+  }
+  .lessons__text {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 25px;
   }
 }
 
