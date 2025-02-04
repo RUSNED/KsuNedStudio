@@ -9,7 +9,7 @@
 }
 
 .about__image {
-  max-width: 840px;
+  max-width: 500px;
 }
 .about__img {
   width: 100%;
@@ -43,11 +43,13 @@
   color:rgba(0, 0, 0, 0.58);
   padding-top: 40px;
   margin: 0;
+  text-indent:10px;
+  text-align: justify;
 }
 
 @media (max-width: 1274px) {
   .about__text {
-    font-size: 16px;
+    font-size: 25px;
   }
   .about__header {
     font-size: 70px;
@@ -58,10 +60,10 @@
   .about__container {
     flex-direction: column;
     align-items: center;
-    padding: 80px 50px 80px 50px;
+    padding: 80px 50px 30px 50px;
   }
   .about__text {
-    font-size: 19px;
+    font-size: 24px;
     padding-top: 10px;
   }
   .about__header {
@@ -75,4 +77,13 @@
   .lessons__cards {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+@media (max-width: 670px) {
+ 
+  .about__text {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
 }

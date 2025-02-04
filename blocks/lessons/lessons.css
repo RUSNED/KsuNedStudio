@@ -57,6 +57,7 @@
   color:rgba(0, 0, 0, 0.58);
   margin: 0;
   padding-top: 20px;
+  text-align: justify;
 }
 
 .lessons__title {
@@ -97,6 +98,7 @@ justify-content: center;
   }
   .lessons__title {
     margin: 0;
+    padding-top: 10px;
   }
   .card3 {
     grid-column: 1;
@@ -107,18 +109,17 @@ justify-content: center;
     grid-row: 3;
   }
   .lessons__header {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .lessons__text {
-    font-size: 19.38px;
-    line-height: 28.81px;
-    padding-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 25px;
   }
 
   .lessons__title {
     font-size: 35px;
     line-height: 80px;
-    padding-top: 50px;
   }
 }
